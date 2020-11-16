@@ -11,10 +11,11 @@ public class PreschoolMathQuiz extends Quiz {
     public void setQuestions() {
         //eventually set this to 30 for 30 questions
         //question 1
-        super.addQuestion("A", new ArrayList<>(Arrays.asList("A", "B", "C", "D")), "Choose A");
+        super.addQuestion("1", new ArrayList<>(Arrays.asList("0", "1", "2", "3")), "Match the word to a number below: One");
         //question 2
-        super.addQuestion("E", new ArrayList<>(Arrays.asList("E", "F", "G", "H")), "Choose E");
+        super.addQuestion("4", new ArrayList<>(Arrays.asList("3", "8", "4", "2")), "Match the word to a number below: Four");
         //question 3
-        super.addQuestion("I", new ArrayList<>(Arrays.asList("I", "J", "K", "L")), "Choose I");
+        super.addQuestion("9", new ArrayList<>(Arrays.asList("6", "7", "9", "4")), "Match the word to a number below: Nine");
+        //question
     }
 }
