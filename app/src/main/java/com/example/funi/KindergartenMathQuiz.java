@@ -46,7 +46,7 @@ public class KindergartenMathQuiz extends Quiz {
         //question 17
         super.addQuestion("0", new ArrayList<>(Arrays.asList("0", "1", "1", "2")), "Find the answer to the expression: 9-9 ");
         //question 18
-        super.addQuestion("9", new ArrayList<>(Arrays.asList("1", "0", "2", "3")), "Find the answer to the expression:  16-7");
+        super.addQuestion("9", new ArrayList<>(Arrays.asList("5", "6", "8", "9")), "Find the answer to the expression:  16-7");
         //question 19
         super.addQuestion("14", new ArrayList<>(Arrays.asList("15", "14", "13", "12")), "Find the answer to the expression: 24-10 ");
         //question 20
