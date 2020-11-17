@@ -29,6 +29,8 @@ public class PreschoolReadingQuiz extends Quiz {
         super.addQuestion("ABCD", new ArrayList<>(Arrays.asList("ACBD","ABCD","ADCB","BACD")), "What is the correct order of letters in the alphabet?");
         //question 9
         super.addQuestion("EFGH", new ArrayList<>(Arrays.asList("EFGH","HGFE","FGHE","EGFH")), "What is the correct order of letters in the alphabet?");
+        //question 10
+        super.addQuestion("IJKL", new ArrayList<>(Arrays.asList("LKJI","KJIL","IKJL","IJKL")), "What is the correct order of letters in the alphabet?");
 
     }
 }
